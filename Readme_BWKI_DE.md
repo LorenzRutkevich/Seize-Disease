@@ -19,7 +19,7 @@
 - ##### Binäre Drüsensegmentierung innerhalb des Dickdarms
 ##### Histologie ist ein entscheidendes Fachgebiet, das sich mit der Untersuchung der Struktur von Zellen und Geweben unter dem Mikroskop befasst. Dieses Forschungsgebiet hat sich als unschätzbar erwiesen, um Einblicke in verschiedene Krankheiten, einschließlich Krebs, zu gewinnen. Durch die Untersuchung von Gewebeproben unter dem Mikroskop können Pathologen abnormale Zellen und Gewebestrukturen identifizieren, die auf eine Krankheit hinweisen können, und so eine frühzeitige Erkennung und Behandlung ermöglichen.
 
-##### Das Potenzial von maschinellem Lernen und Seize Disease, das Fachgebiet der Histologie zu transformieren, ist bedeutend. Mit der zunehmenden Verfügbarkeit von digitalen Pathologie-Werkzeugen und Whole-Slide-Imaging-Technologie können maschinelle Lernalgorithmen darauf trainiert werden, Gewebestrukturen zu erkennen und zu klassifizieren. Dies kann zu einer effizienteren und genaueren Diagnose von Krankheiten führen, was der Schwerpunkt meines Projekts für den nationalen KI-Wettbewerb in Deutschland ([BWKI](https://www.bw-ki.de/)) 2023 ist.
+##### Das Potenzial von maschinellem Lernen und Seize Disease, das Fachgebiet der Histologie zu transformieren, ist bedeutend. Mit der zunehmenden Verfügbarkeit von digitalen Pathologie-Werkzeugen und Whole-Slide-Imaging-Technologie können maschinelle Lernalgorithmen darauf trainiert werden, Gewebestrukturen zu erkennen und zu klassifizieren. Dies kann zu einer effizienteren und genaueren Diagnose von Krankheiten führen, was der Schwerpunkt meines Projekts für den [BWKI](https://www.bw-ki.de/) 2023 ist.
 
 ---
 ### *Erste Schritte*
