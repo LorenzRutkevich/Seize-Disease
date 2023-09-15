@@ -22,6 +22,29 @@
 ##### Histology is a crucial field that involves the study of the structure of cells and tissues under a microscope. This area of study has proven to be invaluable in providing insights into various diseases, including cancer. By examining tissue samples under a microscope, pathologists can identify abnormal cells and tissue structures that may indicate disease, enabling early detection and treatment.
 
 ##### The potential of machine learning and Seize Disease to transform the field of histology is significant. With the increasing availability of digital pathology tools and whole-slide imaging technology, machine learning algorithms can be trained to recognize and classify tissue structures. This can lead to a more efficient and accurate diagnosis of diseases, which is the focus of my project for the national AI competition in Germany ([BWKI](https://www.bw-ki.de/)) 2023.
+
+### *Get Started*:
+---
+#### Local:
+
+##### First, create a Conda or Pip environment for installing the necessary requirements. Once that's done, simply download the datasets and prepare them if necessary. You can find the links to these datasets in the [references](#references) section.
+
+```python
+# Using Pip
+pip install -r requirements.txt
+
+# Using Conda
+conda create --name <env_name> --file requirements.txt
+```
+
+#### Colab:
+
+##### If you're using Google Colab, open any project file and make sure you have the requirements.txt file in it. Then, run the following command:
+
+```
+!pip install -r requirements.txt
+```
+
 ---
 ### *Results* (evaluation):
 ---
