@@ -105,7 +105,8 @@
 |...  | HAT (small) | 0.0623 | 23.7196 | 0.7859 | / | 64 -> 256 | /      |
 
 <br>
-##### Glandular Morphology within Colon Histopathology Images 
+
+###### Glandular Morphology within Colon Histopathology Images 
 
 *Binary Segmentation*
 
