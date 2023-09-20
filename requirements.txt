@@ -17,7 +17,6 @@ tqdm==4.65.0
 vision_transformers==0.1.1.0
 imgaug==0.4.0
 basicsr==1.4.2 
-einops==0.6.0
 csbdeep==0.7.3
 tensorflow==2.12.0  
 keras==2.12.0
