@@ -19,6 +19,6 @@ imgaug
 basicsr
 einops
 csbdeep==0.7.3
-tensorflow
+tensorflow==2.12.0  
 keras==2.12.0
 keras_cv_attention_models==1.3.14
