@@ -25,7 +25,6 @@
 
 ### *Get Started*:
 ---
-*torch-cpu is used in the requirements*
 #### Local:
 
 ##### First, create a Conda or Pip environment for installing the necessary requirements. Once that's done, simply download the datasets and prepare them if necessary. You can find the links to the datasets in the [references](#references) section.
