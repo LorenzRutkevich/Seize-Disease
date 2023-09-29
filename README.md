@@ -134,9 +134,16 @@ conda create --name <env_name> --file requirements.txt
 
 *Binary Segmentation*
 
-| Dataset                                | Model     | loss   | Dice/F1 | Recall | Precison | Additional Models |  
-| -------------------------------------- | --------- | ------ | ------- | ------ | -------- | ----------------- |
-| Colorectal Adenocarcinoma Gland (CRAG) | HystoSeg* | 0.1567 | 0.8433  | 0.8018 | 0.8922   | VitaeV2 + OCR*    |
+
+| Dataset                                | Model            | loss   | Dice/F1    | Recall     | Precison   | Additional Models | Model Config          |
+| -------------------------------------- | ---------------- | ------ | ---------- | ---------- | ---------- | ----------------- | --------------------- |
+| Colorectal Adenocarcinoma Gland (CRAG) | HystoSeg*        | 0.1567 | 0.8433     | 0.8018     | 0.8922     | VitaeV2 + OCR*    | backbone = "xception" |
+| ...                                    | Custom Model L*   | 0.2533 | **0.8865** | **0.8722** | **0.9013** | /                 | /                     |
+| ...                                    | Custom Model S/M* | 0.2724 | 0.854      | 0.8275     | 0.8849     | /                 | /                     |
+
+| ... | HystoSeg DP* | 0.6872 | 0.7306 | 0.6843 | 0.7836 | /   | based on HystoSeg mobilenetv2 | 
+| --- | ------------ | ------ | ------ | ------ | ------ | --- | ----------------------------- |
+| ... | HystoSeg*    | 0.5615 | 0.701  | 0.6589 | 0.7514 | /   | backbone = "mobilenetv2"      |     
 
 
 *Binary Object Detection*
@@ -178,7 +185,7 @@ conda create --name <env_name> --file requirements.txt
 - ##### FasterRCNN: https://github.com/sovit-123/fasterrcnn-pytorch-training-pipeline/tree/main @[sovit123](https://github.com/sovit-123) 
 - ##### VitaeV2: https://github.com/ViTAE-Transformer/ViTAE-Transformer/tree/main 
 - ##### HistoSeg: https://github.com/saadwazir/HistoSeg  @[saadwazir](https://github.com/saadwazir/HistoSeg)
-
+- ##### Efficient Attention: https://github.com/cmsflash/efficient-attention @[Shen Zhuoran](https://github.com/cmsflash)
 #### Comparisions:
 - ##### Pannuke Dataset Comparisions: https://paperswithcode.com/dataset/pannuke | [SONNET](https://paperswithcode.com/paper/sonnet-a-self-guided-ordinal-regression)
 - ##### NCT-CRC-HE-100K Dataset Comparisions: https://paperswithcode.com/sota/medical-image-classification-on-nct-crc-he | [EfficientNet](https://paperswithcode.com/paper/efficientnet-rethinking-model-scaling-for)
