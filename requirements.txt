@@ -22,3 +22,4 @@ tensorflow==2.12.0
 keras==2.12.0
 keras_cv_attention_models==1.3.14
 matplotlib==3.7.1
+torchsummary==1.5.1
