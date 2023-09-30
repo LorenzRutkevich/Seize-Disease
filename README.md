@@ -168,6 +168,10 @@ conda create --name <env_name> --file requirements.txt
 - ##### "Potato Tuber" <small></small> <small>*included in Super Resolution/Restoration Dataset only*</small> : Download [here](https://figshare.com/articles/dataset/A_large-scale_optical_microscopy_image_dataset_of_potato_tuber_for_deep_learning_based_plant_cell_assessment/12206270/1) 
 - ##### Malaria Bounding Boxes <small>*included in Super Resolution/Restoration Dataset only*</small>: Download [here](https://www.kaggle.com/datasets/kmader/malaria-bounding-boxes)
 - ##### Restoration/Super Resolution Dataset (self-made out of all of the above datasets)
+###### _The Custom datasets can be acquired from my drive:_
+- ###### [Restoration Dataset](https://drive.google.com/file/d/1jPz7W1MWWE0iGf6PyadSJRkClB1pdeQ_/view?usp=sharing)
+- ###### [Super Resolution 256/128 Mixed Microscopy](https://drive.google.com/file/d/1aJYnvFXh-m-HjA7YMT6J_mECRKPGZbt6/view?usp=sharing)
+- ###### [Super Resolution 256/128 Histology Only](https://drive.google.com/file/d/1imWuRFz7uZuS1lB5DZUajBL2AcXT5tRY/view?usp=sharing)
 
 #### Code used:
 - ##### HRNetV2 Backbone: https://github.com/noelcodella/HRNetV2_keras_tensorflow_semisupervised @[Noel Codella](https://github.com/noelcodella)
