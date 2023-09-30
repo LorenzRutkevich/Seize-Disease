@@ -124,7 +124,9 @@ conda create --name <env_name> --file requirements.txt
 | Dataset | Model | loss   | PSNR   | SSIM   |
 | ------- | ----- | ------ | ------ | ------ |
 | Custom (Mixed Microscopy Images) | HAT   | 0.0321 | 35.502 | 0.9407 | 
+
 <br>
+
 ###### Glandula Morphologie innerhalb des Dickdarms
 
 *Binary Segmentation*
