@@ -124,6 +124,8 @@ conda create --name <env_name> --file requirements.txt
 | Dataset | Model | loss   | PSNR   | SSIM   |
 | ------- | ----- | ------ | ------ | ------ |
 | Custom (Mixed Microscopy Images) | HAT   | 0.0321 | 35.502 | 0.9407 | 
+| ...  | HAT (small) | 0.0272 | 26.7771 | 0.9039 | / | 64 -> 128 | /    |
+|...  | HAT (small) | 0.0623 | 23.7196 | 0.7859 | / | 64 -> 256 | /      |
 
 <br>
 
