@@ -47,8 +47,9 @@ conda create --name <env_name> --file requirements.txt
 
 ### *Ergebnisse* (Evaluation):
 ---
-*erste Zeile → Modelle mit diesem Projekt mitgeliefert*
-**veränderte/angepasste Modelle*
+*erste Zeile → Modelle mit diesem Projekt mitgeliefert*\
+**veränderte/angepasste Modelle*\
+*Custom Model X sind neue Architekturen*
 
 ###### Zellkern Segmentation:
 
