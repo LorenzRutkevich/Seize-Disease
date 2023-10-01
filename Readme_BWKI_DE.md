@@ -121,9 +121,10 @@ conda create --name <env_name> --file requirements.txt
 
 ###### Superresolution von Mikroskopiebildern 
 
-| Dataset | Model | loss   | PSNR   | SSIM   |
-| ------- | ----- | ------ | ------ | ------ |
-| Custom (Mixed Microscopy Images) | HAT   | 0.0321 | 35.502 | 0.9407 | 
+
+| Dataset | Model       | loss   | PSNR    | SSIM   | Additions                                                  | Resolution | Additional Models |
+| ------- | ----------- | ------ | ------- | ------ | ---------------------------------------------------------- | ---------- | ----------------- |
+| Custom (Mixed Microscopy Images)  | HAT (small) | 0.0382 | 29.6236 | 0.8663 | *Bilder waren geringfügig unscharf, komprimiert und verrauscht * | 128 -> 256 | HAT (Mid)         |
 | ...  | HAT (small) | 0.0272 | 26.7771 | 0.9039 | / | 64 -> 128 | /    |
 |...  | HAT (small) | 0.0623 | 23.7196 | 0.7859 | / | 64 -> 256 | /      |
 
