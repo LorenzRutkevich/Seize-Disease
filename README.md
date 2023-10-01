@@ -48,8 +48,9 @@ conda create --name <env_name> --file requirements.txt
 ---
 ### *Results* (evaluation):
 ---
-*first row → models shipped with this project*
-**changed/altered models*
+*first row → models shipped with this project*\
+**changed/altered models*\
+*Custom Model X are new architectures*
 
 ###### Nuclei Segmentation:
 
