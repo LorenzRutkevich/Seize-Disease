@@ -138,13 +138,13 @@ conda create --name <env_name> --file requirements.txt
 
 | Dataset                                | Model            | loss   | Dice/F1    | Recall     | Precison   | Additional Models | Model Config          |
 | -------------------------------------- | ---------------- | ------ | ---------- | ---------- | ---------- | ----------------- | --------------------- |
-| Colorectal Adenocarcinoma Gland (CRAG) | HystoSeg*        | 0.1567 | 0.8433     | 0.8018     | 0.8922     | VitaeV2 + OCR*    | backbone = "xception" |
+| Colorectal Adenocarcinoma Gland (CRAG) | HistoSeg*        | 0.1567 | 0.8433     | 0.8018     | 0.8922     | VitaeV2 + OCR*    | backbone = "xception" |
 | ...                                    | Custom Model L*   | 0.2397 | **0.9033** | **0.8895** | **0.9176** | /                 | /                     |
 | ...                                    | Custom Model S/M* | 0.2724 | 0.854      | 0.8275     | 0.8849     | /                 | /                     |
 
-| ... | HystoSeg DP* | 0.6872 | 0.7306 | 0.6843 | 0.7836 | /   | based on HystoSeg mobilenetv2 | 
+| ... | HistoSeg DP* | 0.6872 | 0.7306 | 0.6843 | 0.7836 | /   | based on HistoSeg mobilenetv2 | 
 | --- | ------------ | ------ | ------ | ------ | ------ | --- | ----------------------------- |
-| ... | HystoSeg*    | 0.5615 | 0.701  | 0.6589 | 0.7514 | /   | backbone = "mobilenetv2"      |     
+| ... | HistoSeg*    | 0.5615 | 0.701  | 0.6589 | 0.7514 | /   | backbone = "mobilenetv2"      |     
 
 
 *Binary Object Detection*
