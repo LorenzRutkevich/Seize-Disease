@@ -154,9 +154,11 @@ conda create --name <env_name> --file requirements.txt
 | Colorectal Adenocarcinoma Gland (CRAG) | FasterRCNN RegNet Y 400MF | 0.8131 |
 
 <br>
+
 ### *Updates*:
 ---
 #### 26.10.2023: New tiling feature for the website
+
 <br>
 
 ### *References*:
