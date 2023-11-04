@@ -46,7 +46,7 @@ conda create --name <env_name> --file requirements.txt
 ```
 
 ---
-### *Results* (evaluation):
+### *Results (evaluation: 30.09.2023)*:
 ---
 *first row → models shipped with this project*\
 **changed/altered models*\
